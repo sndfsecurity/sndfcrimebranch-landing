@@ -58,7 +58,7 @@ body {
 }
 
 .logo-text h1 {
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   font-weight: 700;
   letter-spacing: 1px;
   line-height: 1.2;
@@ -70,12 +70,13 @@ body {
   padding: 0.5rem 1.2rem;
   border-radius: 40px;
   border: 1px solid rgba(201, 162, 39, 0.5);
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #e0e7ff;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  letter-spacing: 1px;
 }
 
 .header-badge span {
@@ -103,6 +104,7 @@ body {
   line-height: 1.2;
   color: var(--navy);
   max-width: 850px;
+  letter-spacing:1px;
 }
 
 .hero-title .highlight {
@@ -115,11 +117,12 @@ body {
 }
 
 .hero-sub {
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   color: #334155;
   max-width: 650px;
   margin-top: 0.5rem;
   font-weight: 400;
+  letter-spacing: 0.2px;
 }
 
 .hero-cta {
@@ -137,8 +140,8 @@ body {
   font-weight: 600;
   text-decoration: none;
   transition: all 0.2s ease;
-  font-size: 1rem;
-  letter-spacing: 0.3px;
+  font-size: 1.15rem;
+  letter-spacing: 0.4px;
   border: 2px solid transparent;
   cursor: pointer;
 }
@@ -183,10 +186,10 @@ body {
 }
 
 .section-header h2 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 700;
   color: var(--navy);
-  letter-spacing: -0.5px;
+  letter-spacing: 0.5px;
 }
 
 .section-header .divider {
@@ -237,6 +240,7 @@ body {
 
 .feature-card h3 {
   font-size: 1.25rem;
+  letter-spacing: 0.1px;
   margin-bottom: 0.6rem;
   color: var(--navy);
 }
@@ -244,6 +248,7 @@ body {
 .feature-card p {
   font-size: 0.95rem;
   color: #334155;
+  letter-spacing: 0.2px;
 }
 
 /* ----- 4. FOOTER ----- */
@@ -352,6 +357,8 @@ body {
   .btn {
     width: 100%;
     text-align: center;
+    max-width: 250px;
+    align-self: center;
   }
 
   .footer-grid {
